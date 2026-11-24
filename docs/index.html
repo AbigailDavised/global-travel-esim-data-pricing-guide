@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Global Travel eSIM Data Pricing &amp; Compatibility Guide | eSIMSou Reference</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.65; color: #18181b; max-width: 940px; margin: 40px auto; padding: 0 20px; background: #fafaf9; }
+    h1, h2, h3 { color: #09090b; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; background: #fff; }
+    th, td { border: 1px solid #d4d4d8; padding: 10px 12px; text-align: left; font-size: 14px; }
+    th { background: #f4f4f5; }
+    .card { background: #fff; border: 1px solid #e4e4e7; border-radius: 8px; padding: 20px; margin: 20px 0; }
+    code { background: #f4f4f5; padding: 2px 5px; border-radius: 4px; font-size: 13px; }
+    a { color: #0f4c81; }
+  </style>
+</head>
+<body>
+  <h1>Global Travel eSIM Data Pricing &amp; Carrier Compatibility Reference</h1>
+  <p>Cross-border travelers comparing international data plans often compare only headline gigabyte totals while overlooking underlying Tier-1 host operators, Fair Usage Policy (FUP) throttling thresholds, and regional hardware locks. Compiled from live tariff tables, carrier network diagnostics, and device compatibility checks maintained by <a href="https://esimsou.com/">eSIMSou Global eSIM Price Comparison</a>, this reference documents verified 3GB, 5GB, and 10GB prepaid pricing across major travel corridors alongside emergency APN recovery procedures and physical eSIM adapter workarounds.</p>
+
+  <div class="card">
+    <h3>1. Regional eSIM Data Pricing &amp; Tier-1 Host Network Matrix (USD)</h3>
+    <p>Across six high-frequency travel destinations tracked by eSIMSou, per-gigabyte unit pricing shifts substantially between providers depending on whether traffic routes through Tier-1 local radio networks or multi-hop roaming hubs:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Destination Corridor</th>
+          <th>Primary Tier-1 Carriers</th>
+          <th>3GB / 7-Day Range</th>
+          <th>5GB / 15-Day Range</th>
+          <th>10GB / 30-Day Range</th>
+          <th>Live Pricing Table</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Japan</strong></td>
+          <td>NTT Docomo, SoftBank, KDDI (au)</td>
+          <td>$6.73 (Ubigi) &ndash; $8.56 (Holafly)</td>
+          <td>$9.18 (Nomad) &ndash; $13.00 (Holafly)</td>
+          <td>$14.99 (Nomad) &ndash; $20.86 (Holafly)</td>
+          <td><a href="https://esimsou.com/japan-esim">Japan eSIM Price Index</a></td>
+        </tr>
+        <tr>
+          <td><strong>Thailand</strong></td>
+          <td>AIS 5G, TrueMove H, DTAC</td>
+          <td>$6.73 (Roamless) &ndash; $9.13 (Ubigi)</td>
+          <td>$9.50 (Ubigi) &ndash; $12.44 (Nomad)</td>
+          <td>$13.77 (Nomad) &ndash; $19.49 (Holafly)</td>
+          <td><a href="https://esimsou.com/thailand-esim">Thailand eSIM Price Index</a></td>
+        </tr>
+        <tr>
+          <td><strong>Europe (33+ Countries)</strong></td>
+          <td>Orange, Vodafone, Deutsche Telekom, Swisscom</td>
+          <td>$6.50 (Nomad) &ndash; $9.21 (Holafly)</td>
+          <td>$10.00 (Nomad) &ndash; $13.91 (Holafly)</td>
+          <td>$16.22 (Nomad) &ndash; $19.76 (Airalo)</td>
+          <td><a href="https://esimsou.com/europe-esim">Europe 33+ eSIM Price Index</a></td>
+        </tr>
+        <tr>
+          <td><strong>South Korea</strong></td>
+          <td>SK Telecom (SKT), KT Olleh, LG U+</td>
+          <td>$6.73 (RedteaGO) &ndash; $9.85 (Holafly)</td>
+          <td>$10.26 (Holafly) &ndash; $13.18 (Airalo)</td>
+          <td>$14.58 (Airalo) &ndash; $19.32 (Ubigi)</td>
+          <td><a href="https://esimsou.com/korea-esim">Korea eSIM Price Index</a></td>
+        </tr>
+        <tr>
+          <td><strong>United States</strong></td>
+          <td>T-Mobile US, AT&amp;T Mobility, Verizon</td>
+          <td>$7.27 (Holafly) &ndash; $9.33 (Airalo)</td>
+          <td>$9.72 (Airalo) &ndash; $12.88 (Ubigi)</td>
+          <td>$14.26 (Ubigi) &ndash; $18.67 (Nomad)</td>
+          <td><a href="https://esimsou.com/usa-esim">USA eSIM Price Index</a></td>
+        </tr>
+        <tr>
+          <td><strong>Taiwan</strong></td>
+          <td>Chunghwa Telecom, FarEasTone, Taiwan Mobile</td>
+          <td>$7.27 (Holafly) &ndash; $9.33 (Airalo)</td>
+          <td>$9.72 (Airalo) &ndash; $12.88 (Ubigi)</td>
+          <td>$14.26 (Ubigi) &ndash; $18.67 (Nomad)</td>
+          <td><a href="https://esimsou.com/taiwan-esim">Taiwan eSIM Price Index</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Discount codes tracked on the main comparison directory also reduce checkout totals directly across participating vendors: <code>ESIMSOU10</code> (10% off Airalo and Saily), <code>ESIMSOU3</code> ($3 off Nomad), <code>ESIMSOU5</code> (5% off Holafly), <code>UBIGI10</code> (10% off Ubigi Japan), <code>ESIMSOU8</code> (8% off ByteSIM), and <code>ESIMSOU_ROAM</code> ($3 bonus credit on Roamless pay-as-you-go balances).</p>
+  </div>
+
+  <h3>2. Hardware Compatibility Verification &amp; Regional Model Differences</h3>
+  <p>Before buying any QR profile, travelers can confirm physical embedded SIM hardware in three seconds by opening the phone dialer and entering <code>*#06#</code> without pressing call. Devices equipped with a soldered eUICC chip display a 32-digit <strong>EID (Embedded ID)</strong> string and barcode alongside standard IMEI identifiers. Hardware support diverges sharply by regional sales SKU rather than purely by brand name:</p>
+  <ul>
+    <li><strong>US-Market iPhones (iPhone 14 through iPhone 18):</strong> Built strictly eSIM-only with zero physical tray, capable of storing 10 or more inactive carrier profiles in settings.</li>
+    <li><strong>European, Japanese, Canadian &amp; Taiwanese iPhones:</strong> Dual-mode hardware combining one physical Nano-SIM slot with dual active eSIM standby.</li>
+    <li><strong>Mainland China Dual-SIM iPhones:</strong> Dual-sided physical Nano-SIM trays omit the physical eUICC chip from the motherboard entirely, meaning jailbreaking or software updates cannot enable native eSIM profiles.</li>
+    <li><strong>Android Support:</strong> Google Pixel models from the Pixel 3a onward and international Samsung Galaxy S, Z Fold, and Z Flip variants support native eSIM profiles, whereas domestic dual-SIM Mainland China hardware uses removable programmable eUICC SIM adapters such as <strong>5ber Premium</strong> (unlimited profile writes) or <strong>9esim</strong> programmed briefly inside an Android SIM tray before moving to an iPhone.</li>
+  </ul>
+
+  <h3>3. Fair Usage Policy (FUP) Throttling &amp; Non-EU Roaming Exceptions</h3>
+  <p>Many plans marketed as unlimited apply a hidden daily high-speed threshold&mdash;commonly <code>2 GB</code> to <code>3 GB</code> per day on regional packs&mdash;before dropping bandwidth to <code>128 kbps</code> until local midnight <code>00:00</code>. At <code>128 kbps</code>, text messaging and turn-by-turn map tiles stay reachable without surprise overage fees, though cloud backups and high-bitrate video pause until the next reset window or an in-app <code>1 GB</code> top-up. In multi-country European itineraries covered in the <a href="https://esimsou.com/europe-esim">Europe 33+ eSIM guide</a>, travelers crossing into Switzerland must verify explicit Swisscom coverage on the SKU country list because Switzerland sits outside standard EU roaming mandates.</p>
+
+  <h3>4. Pre-Flight Activation Checklist &amp; 30-Second Landing Recovery</h3>
+  <p>Because commercial eSIM QR codes from Airalo, Nomad, and similar resellers are strictly single-use credentials, deleting an installed profile invalidates the QR permanently. Installing the profile over reliable home Wi-Fi 30 minutes prior to departure, renaming the cellular label by destination (for example, Japan Data or USA Data), and turning off automatic cellular data switching keeps the home physical SIM active solely for incoming banking SMS codes without incurring carrier roaming charges. Upon landing, if cellular registration stalls on a foreign tower, three deterministic steps resolve most connection drops: verify that <strong>Data Roaming</strong> is enabled on the travel eSIM line, toggle Airplane Mode for 10 seconds to force a fresh base-station handshake, and switch network selection from Automatic to the primary Tier-1 local carrier (such as NTT Docomo in Japan, AIS 5G in Thailand, SK Telecom in South Korea, T-Mobile US or AT&amp;T in the United States, or Chunghwa Telecom in Taiwan) with fallback APN values <code>globaldata</code> or <code>internet</code>.</p>
+
+  <h3>5. Verified Destination Pricing &amp; Compatibility Routes on eSIMSou</h3>
+  <ul>
+    <li><a href="https://esimsou.com/">eSIMSou Global Price Comparison Home</a> &mdash; Live tariff search across 100+ destinations, carrier reviews, native IP checks, and verified promo codes.</li>
+    <li><a href="https://esimsou.com/japan-esim">Japan eSIM Comparison &amp; A4 Offline Cheat Sheet</a> &mdash; NTT Docomo, SoftBank, and KDDI 5G speed tiers, APN recovery codes, and Airalo vs. Nomad vs. Ubigi rates.</li>
+    <li><a href="https://esimsou.com/thailand-esim">Thailand eSIM Comparison</a> &mdash; AIS 5G island coverage vs. TrueMove H and DTAC bundles with included local voice minutes.</li>
+    <li><a href="https://esimsou.com/europe-esim">Europe 33+ Countries eSIM Guide</a> &mdash; Cross-border Orange, Vodafone, Deutsche Telekom, and Swisscom roaming rules plus 128 kbps FUP thresholds.</li>
+    <li><a href="https://esimsou.com/korea-esim">South Korea eSIM Pricing</a> &mdash; Seoul, Busan, and Jeju Island benchmarks across SK Telecom, KT Olleh, and LG U+.</li>
+    <li><a href="https://esimsou.com/usa-esim">USA Travel eSIM Pricing</a> &mdash; T-Mobile Ultra Capacity 5G urban speeds vs. AT&amp;T highway and national park coverage.</li>
+    <li><a href="https://esimsou.com/taiwan-esim">Taiwan eSIM Comparison</a> &mdash; Chunghwa Telecom, FarEasTone, and Taiwan Mobile no-KYC instant activation options.</li>
+  </ul>
+</body>
+</html>
